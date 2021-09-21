@@ -1016,3 +1016,14 @@ UIGradient_46.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.f
 UIGradient_46.Parent = TextLabel_Roundify_12px_17
 
 
+mouse.KeyDown:connect(function(key)
+	key = key:lower() 
+	if key == '\' then -- if key pressed is h
+		LoginFrame.Visible = not LoginFrame.Visible 
+		Main.Visible = not Main.Visible
+		Page1T.Visible = not Page1T.Visible 
+		Page2T.Visible = not Page2T.Visible
+		Page3T.Visible = not Page3T.Visible
+		Page4T.Visible = not Page4T.Visible
+	end
+end)
