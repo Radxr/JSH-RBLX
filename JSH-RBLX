@@ -1,0 +1,1018 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local Page1B = Instance.new("TextButton")
+local Page1B_Roundify_12px = Instance.new("ImageLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local Page2B = Instance.new("TextButton")
+local Page1B_Roundify_12px_2 = Instance.new("ImageLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local Page3B = Instance.new("TextButton")
+local Page1B_Roundify_12px_3 = Instance.new("ImageLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local Page4B = Instance.new("TextButton")
+local Page1B_Roundify_12px_4 = Instance.new("ImageLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local Page1T = Instance.new("ImageLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local JailBreak = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local UIGradient_8 = Instance.new("UIGradient")
+local Arsenal = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_2 = Instance.new("ImageLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local UIGradient_10 = Instance.new("UIGradient")
+local Phantom = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_3 = Instance.new("ImageLabel")
+local UIGradient_11 = Instance.new("UIGradient")
+local UIGradient_12 = Instance.new("UIGradient")
+local Recoil = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_4 = Instance.new("ImageLabel")
+local UIGradient_13 = Instance.new("UIGradient")
+local UIGradient_14 = Instance.new("UIGradient")
+local Page2T = Instance.new("ImageLabel")
+local UIGradient_15 = Instance.new("UIGradient")
+local JailBreak_2 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_5 = Instance.new("ImageLabel")
+local UIGradient_16 = Instance.new("UIGradient")
+local UIGradient_17 = Instance.new("UIGradient")
+local Arsenal_2 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_6 = Instance.new("ImageLabel")
+local UIGradient_18 = Instance.new("UIGradient")
+local UIGradient_19 = Instance.new("UIGradient")
+local Phantom_2 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_7 = Instance.new("ImageLabel")
+local UIGradient_20 = Instance.new("UIGradient")
+local UIGradient_21 = Instance.new("UIGradient")
+local Recoil_2 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_8 = Instance.new("ImageLabel")
+local UIGradient_22 = Instance.new("UIGradient")
+local UIGradient_23 = Instance.new("UIGradient")
+local Page3T = Instance.new("ImageLabel")
+local UIGradient_24 = Instance.new("UIGradient")
+local JailBreak_3 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_9 = Instance.new("ImageLabel")
+local UIGradient_25 = Instance.new("UIGradient")
+local UIGradient_26 = Instance.new("UIGradient")
+local Arsenal_3 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_10 = Instance.new("ImageLabel")
+local UIGradient_27 = Instance.new("UIGradient")
+local UIGradient_28 = Instance.new("UIGradient")
+local Phantom_3 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_11 = Instance.new("ImageLabel")
+local UIGradient_29 = Instance.new("UIGradient")
+local UIGradient_30 = Instance.new("UIGradient")
+local Recoil_3 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_12 = Instance.new("ImageLabel")
+local UIGradient_31 = Instance.new("UIGradient")
+local UIGradient_32 = Instance.new("UIGradient")
+local Page4T = Instance.new("ImageLabel")
+local UIGradient_33 = Instance.new("UIGradient")
+local JailBreak_4 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_13 = Instance.new("ImageLabel")
+local UIGradient_34 = Instance.new("UIGradient")
+local UIGradient_35 = Instance.new("UIGradient")
+local Arsenal_4 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_14 = Instance.new("ImageLabel")
+local UIGradient_36 = Instance.new("UIGradient")
+local UIGradient_37 = Instance.new("UIGradient")
+local Phantom_4 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_15 = Instance.new("ImageLabel")
+local UIGradient_38 = Instance.new("UIGradient")
+local UIGradient_39 = Instance.new("UIGradient")
+local Recoil_4 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_16 = Instance.new("ImageLabel")
+local UIGradient_40 = Instance.new("UIGradient")
+local UIGradient_41 = Instance.new("UIGradient")
+local LoginFrame = Instance.new("ImageLabel")
+local UIGradient_42 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local Password = Instance.new("TextBox")
+local Username = Instance.new("TextBox")
+local Auth = Instance.new("TextButton")
+local RoundifyAuth = Instance.new("ImageLabel")
+local UIGradient_43 = Instance.new("UIGradient")
+local Roundify = Instance.new("Folder")
+local PasswordRound = Instance.new("ImageLabel")
+local UIGradient_44 = Instance.new("UIGradient")
+local UsernameRound = Instance.new("ImageLabel")
+local UIGradient_45 = Instance.new("UIGradient")
+local TextLabel_Roundify_12px_17 = Instance.new("ImageLabel")
+local UIGradient_46 = Instance.new("UIGradient")
+
+
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.Position = UDim2.new(0.313711762, 0, 0.128268465, 0)
+Main.Size = UDim2.new(0, 469, 0, 134)
+Main.Visible = false
+Main.Image = "rbxassetid://3570695787"
+Main.ScaleType = Enum.ScaleType.Slice
+Main.SliceCenter = Rect.new(100, 100, 100, 100)
+Main.SliceScale = 0.120
+Main.Active = true
+Main.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient.Parent = Main
+
+Page1B.Name = "Page1B"
+Page1B.Parent = Main
+Page1B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1B.BackgroundTransparency = 1.000
+Page1B.BorderSizePixel = 4
+Page1B.Position = UDim2.new(0.0895522386, 0, 0.179104477, 0)
+Page1B.Size = UDim2.new(0, 85, 0, 85)
+Page1B.ZIndex = 2
+Page1B.Font = Enum.Font.FredokaOne
+Page1B.Text = "Page 1"
+Page1B.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1B.TextSize = 30.000
+Page1B.TextWrapped = true
+Page1B.MouseButton1Down:connect(function()
+	Page1T.Visible = true
+	Page2T.Visible = false
+	Page3T.Visible = false
+	Page4T.Visible = false
+end)
+
+Page1B_Roundify_12px.Name = "Page1B_Roundify_12px"
+Page1B_Roundify_12px.Parent = Page1B
+Page1B_Roundify_12px.Active = true
+Page1B_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Page1B_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1B_Roundify_12px.BackgroundTransparency = 1.000
+Page1B_Roundify_12px.BorderSizePixel = 4
+Page1B_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Page1B_Roundify_12px.Selectable = true
+Page1B_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Page1B_Roundify_12px.Image = "rbxassetid://3570695787"
+Page1B_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Page1B_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Page1B_Roundify_12px.SliceScale = 0.120
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_2.Parent = Page1B_Roundify_12px
+
+Page2B.Name = "Page2B"
+Page2B.Parent = Main
+Page2B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2B.BackgroundTransparency = 1.000
+Page2B.BorderSizePixel = 4
+Page2B.Position = UDim2.new(0.296375245, 0, 0.179104477, 0)
+Page2B.Size = UDim2.new(0, 85, 0, 85)
+Page2B.ZIndex = 2
+Page2B.Font = Enum.Font.FredokaOne
+Page2B.Text = "Page 2"
+Page2B.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2B.TextSize = 30.000
+Page2B.TextWrapped = true
+Page2B.MouseButton1Down:connect(function()
+	Page1T.Visible = false
+	Page2T.Visible = true
+	Page3T.Visible = false
+	Page4T.Visible = false
+end)
+
+Page1B_Roundify_12px_2.Name = "Page1B_Roundify_12px"
+Page1B_Roundify_12px_2.Parent = Page2B
+Page1B_Roundify_12px_2.Active = true
+Page1B_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Page1B_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1B_Roundify_12px_2.BackgroundTransparency = 1.000
+Page1B_Roundify_12px_2.BorderSizePixel = 4
+Page1B_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Page1B_Roundify_12px_2.Selectable = true
+Page1B_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+Page1B_Roundify_12px_2.Image = "rbxassetid://3570695787"
+Page1B_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+Page1B_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Page1B_Roundify_12px_2.SliceScale = 0.120
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_3.Parent = Page1B_Roundify_12px_2
+
+Page3B.Name = "Page3B"
+Page3B.Parent = Main
+Page3B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3B.BackgroundTransparency = 1.000
+Page3B.BorderSizePixel = 4
+Page3B.Position = UDim2.new(0.524520218, 0, 0.179104477, 0)
+Page3B.Size = UDim2.new(0, 85, 0, 85)
+Page3B.ZIndex = 2
+Page3B.Font = Enum.Font.FredokaOne
+Page3B.Text = "Page 3"
+Page3B.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page3B.TextSize = 30.000
+Page3B.TextWrapped = true
+Page3B.MouseButton1Down:connect(function()
+	Page1T.Visible = false
+	Page2T.Visible = false
+	Page3T.Visible = true
+	Page4T.Visible = false
+end)
+
+Page1B_Roundify_12px_3.Name = "Page1B_Roundify_12px"
+Page1B_Roundify_12px_3.Parent = Page3B
+Page1B_Roundify_12px_3.Active = true
+Page1B_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Page1B_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1B_Roundify_12px_3.BackgroundTransparency = 1.000
+Page1B_Roundify_12px_3.BorderSizePixel = 4
+Page1B_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Page1B_Roundify_12px_3.Selectable = true
+Page1B_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+Page1B_Roundify_12px_3.Image = "rbxassetid://3570695787"
+Page1B_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+Page1B_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Page1B_Roundify_12px_3.SliceScale = 0.120
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_4.Parent = Page1B_Roundify_12px_3
+
+Page4B.Name = "Page4B"
+Page4B.Parent = Main
+Page4B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page4B.BackgroundTransparency = 1.000
+Page4B.BorderSizePixel = 4
+Page4B.Position = UDim2.new(0.729211092, 0, 0.179104477, 0)
+Page4B.Size = UDim2.new(0, 85, 0, 85)
+Page4B.ZIndex = 2
+Page4B.Font = Enum.Font.FredokaOne
+Page4B.Text = "Page 4"
+Page4B.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page4B.TextSize = 30.000
+Page4B.TextWrapped = true
+Page4B.MouseButton1Down:connect(function()
+	Page1T.Visible = false
+	Page2T.Visible = false
+	Page3T.Visible = false
+	Page4T.Visible = true
+end)
+
+Page1B_Roundify_12px_4.Name = "Page1B_Roundify_12px"
+Page1B_Roundify_12px_4.Parent = Page4B
+Page1B_Roundify_12px_4.Active = true
+Page1B_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Page1B_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1B_Roundify_12px_4.BackgroundTransparency = 1.000
+Page1B_Roundify_12px_4.BorderSizePixel = 4
+Page1B_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Page1B_Roundify_12px_4.Selectable = true
+Page1B_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+Page1B_Roundify_12px_4.Image = "rbxassetid://3570695787"
+Page1B_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+Page1B_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+Page1B_Roundify_12px_4.SliceScale = 0.120
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_5.Parent = Page1B_Roundify_12px_4
+
+Page1T.Name = "Page1T"
+Page1T.Parent = Main
+Page1T.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1T.BackgroundTransparency = 1.000
+Page1T.Position = UDim2.new(-0.236673772, 0, 1.22388053, 0)
+Page1T.Size = UDim2.new(0, 692, 0, 408)
+Page1T.Visible = false
+Page1T.Image = "rbxassetid://3570695787"
+Page1T.ScaleType = Enum.ScaleType.Slice
+Page1T.SliceCenter = Rect.new(100, 100, 100, 100)
+Page1T.SliceScale = 0.120
+Page1T.Active = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_6.Parent = Page1T
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = Page1T
+JailBreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak.BackgroundTransparency = 1.000
+JailBreak.BorderSizePixel = 0
+JailBreak.Position = UDim2.new(0.0953757167, 0, 0.0416666716, 0)
+JailBreak.Size = UDim2.new(0, 127, 0, 33)
+JailBreak.ZIndex = 2
+JailBreak.Font = Enum.Font.Ubuntu
+JailBreak.Text = "Jailbreak"
+JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak.TextScaled = true
+JailBreak.TextSize = 14.000
+JailBreak.TextWrapped = true
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = JailBreak
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_7.Parent = TextLabel_Roundify_12px
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_8.Parent = JailBreak
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Page1T
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.BackgroundTransparency = 1.000
+Arsenal.BorderSizePixel = 0
+Arsenal.Position = UDim2.new(0.718208075, 0, 0.0416666716, 0)
+Arsenal.Size = UDim2.new(0, 127, 0, 33)
+Arsenal.ZIndex = 2
+Arsenal.Font = Enum.Font.Ubuntu
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextScaled = true
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+
+TextLabel_Roundify_12px_2.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_2.Parent = Arsenal
+TextLabel_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_2.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_2.SliceScale = 0.120
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_9.Parent = TextLabel_Roundify_12px_2
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_10.Parent = Arsenal
+
+Phantom.Name = "Phantom"
+Phantom.Parent = Page1T
+Phantom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Phantom.BackgroundTransparency = 1.000
+Phantom.BorderSizePixel = 0
+Phantom.Position = UDim2.new(0.303468198, 0, 0.0416666716, 0)
+Phantom.Size = UDim2.new(0, 127, 0, 33)
+Phantom.ZIndex = 2
+Phantom.Font = Enum.Font.Ubuntu
+Phantom.Text = "Phantom"
+Phantom.TextColor3 = Color3.fromRGB(0, 0, 0)
+Phantom.TextScaled = true
+Phantom.TextSize = 14.000
+Phantom.TextWrapped = true
+
+TextLabel_Roundify_12px_3.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_3.Parent = Phantom
+TextLabel_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_3.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_3.SliceScale = 0.120
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_11.Parent = TextLabel_Roundify_12px_3
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_12.Parent = Phantom
+
+Recoil.Name = "Recoil"
+Recoil.Parent = Page1T
+Recoil.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Recoil.BackgroundTransparency = 1.000
+Recoil.BorderSizePixel = 0
+Recoil.Position = UDim2.new(0.518786073, 0, 0.0416666716, 0)
+Recoil.Size = UDim2.new(0, 127, 0, 33)
+Recoil.ZIndex = 2
+Recoil.Font = Enum.Font.Ubuntu
+Recoil.Text = "Recoil"
+Recoil.TextColor3 = Color3.fromRGB(0, 0, 0)
+Recoil.TextScaled = true
+Recoil.TextSize = 14.000
+Recoil.TextWrapped = true
+
+TextLabel_Roundify_12px_4.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_4.Parent = Recoil
+TextLabel_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_4.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_4.SliceScale = 0.120
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_13.Parent = TextLabel_Roundify_12px_4
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_14.Parent = Recoil
+
+Page2T.Name = "Page2T"
+Page2T.Parent = Main
+Page2T.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2T.BackgroundTransparency = 1.000
+Page2T.Position = UDim2.new(-0.236673772, 0, 1.22388053, 0)
+Page2T.Size = UDim2.new(0, 692, 0, 408)
+Page2T.Visible = false
+Page2T.Image = "rbxassetid://3570695787"
+Page2T.ScaleType = Enum.ScaleType.Slice
+Page2T.SliceCenter = Rect.new(100, 100, 100, 100)
+Page2T.SliceScale = 0.120
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_15.Parent = Page2T
+
+JailBreak_2.Name = "JailBreak"
+JailBreak_2.Parent = Page2T
+JailBreak_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak_2.BackgroundTransparency = 1.000
+JailBreak_2.BorderSizePixel = 0
+JailBreak_2.Position = UDim2.new(0.0953757167, 0, 0.0416666716, 0)
+JailBreak_2.Size = UDim2.new(0, 127, 0, 33)
+JailBreak_2.ZIndex = 2
+JailBreak_2.Font = Enum.Font.Ubuntu
+JailBreak_2.Text = "Jailbreak"
+JailBreak_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak_2.TextScaled = true
+JailBreak_2.TextSize = 14.000
+JailBreak_2.TextWrapped = true
+
+TextLabel_Roundify_12px_5.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_5.Parent = JailBreak_2
+TextLabel_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_5.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_5.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_5.SliceScale = 0.120
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_16.Parent = TextLabel_Roundify_12px_5
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_17.Parent = JailBreak_2
+
+Arsenal_2.Name = "Arsenal"
+Arsenal_2.Parent = Page2T
+Arsenal_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal_2.BackgroundTransparency = 1.000
+Arsenal_2.BorderSizePixel = 0
+Arsenal_2.Position = UDim2.new(0.718208075, 0, 0.0416666716, 0)
+Arsenal_2.Size = UDim2.new(0, 127, 0, 33)
+Arsenal_2.ZIndex = 2
+Arsenal_2.Font = Enum.Font.Ubuntu
+Arsenal_2.Text = "Arsenal"
+Arsenal_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal_2.TextScaled = true
+Arsenal_2.TextSize = 14.000
+Arsenal_2.TextWrapped = true
+
+TextLabel_Roundify_12px_6.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_6.Parent = Arsenal_2
+TextLabel_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_6.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_6.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_6.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_6.SliceScale = 0.120
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_18.Parent = TextLabel_Roundify_12px_6
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_19.Parent = Arsenal_2
+
+Phantom_2.Name = "Phantom"
+Phantom_2.Parent = Page2T
+Phantom_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Phantom_2.BackgroundTransparency = 1.000
+Phantom_2.BorderSizePixel = 0
+Phantom_2.Position = UDim2.new(0.303468198, 0, 0.0416666716, 0)
+Phantom_2.Size = UDim2.new(0, 127, 0, 33)
+Phantom_2.ZIndex = 2
+Phantom_2.Font = Enum.Font.Ubuntu
+Phantom_2.Text = "Phantom"
+Phantom_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Phantom_2.TextScaled = true
+Phantom_2.TextSize = 14.000
+Phantom_2.TextWrapped = true
+
+TextLabel_Roundify_12px_7.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_7.Parent = Phantom_2
+TextLabel_Roundify_12px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_7.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_7.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_7.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_7.SliceScale = 0.120
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_20.Parent = TextLabel_Roundify_12px_7
+
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_21.Parent = Phantom_2
+
+Recoil_2.Name = "Recoil"
+Recoil_2.Parent = Page2T
+Recoil_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Recoil_2.BackgroundTransparency = 1.000
+Recoil_2.BorderSizePixel = 0
+Recoil_2.Position = UDim2.new(0.518786073, 0, 0.0416666716, 0)
+Recoil_2.Size = UDim2.new(0, 127, 0, 33)
+Recoil_2.ZIndex = 2
+Recoil_2.Font = Enum.Font.Ubuntu
+Recoil_2.Text = "Recoil"
+Recoil_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Recoil_2.TextScaled = true
+Recoil_2.TextSize = 14.000
+Recoil_2.TextWrapped = true
+
+TextLabel_Roundify_12px_8.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_8.Parent = Recoil_2
+TextLabel_Roundify_12px_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_8.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_8.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_8.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_8.SliceScale = 0.120
+
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_22.Parent = TextLabel_Roundify_12px_8
+
+UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_23.Parent = Recoil_2
+
+Page3T.Name = "Page3T"
+Page3T.Parent = Main
+Page3T.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3T.BackgroundTransparency = 1.000
+Page3T.Position = UDim2.new(-0.236673772, 0, 1.22388053, 0)
+Page3T.Size = UDim2.new(0, 692, 0, 408)
+Page3T.Visible = false
+Page3T.Image = "rbxassetid://3570695787"
+Page3T.ScaleType = Enum.ScaleType.Slice
+Page3T.SliceCenter = Rect.new(100, 100, 100, 100)
+Page3T.SliceScale = 0.120
+
+UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_24.Parent = Page3T
+
+JailBreak_3.Name = "JailBreak"
+JailBreak_3.Parent = Page3T
+JailBreak_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak_3.BackgroundTransparency = 1.000
+JailBreak_3.BorderSizePixel = 0
+JailBreak_3.Position = UDim2.new(0.0953757167, 0, 0.0416666716, 0)
+JailBreak_3.Size = UDim2.new(0, 127, 0, 33)
+JailBreak_3.ZIndex = 2
+JailBreak_3.Font = Enum.Font.Ubuntu
+JailBreak_3.Text = "Jailbreak"
+JailBreak_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak_3.TextScaled = true
+JailBreak_3.TextSize = 14.000
+JailBreak_3.TextWrapped = true
+
+TextLabel_Roundify_12px_9.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_9.Parent = JailBreak_3
+TextLabel_Roundify_12px_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_9.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_9.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_9.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_9.SliceScale = 0.120
+
+UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_25.Parent = TextLabel_Roundify_12px_9
+
+UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_26.Parent = JailBreak_3
+
+Arsenal_3.Name = "Arsenal"
+Arsenal_3.Parent = Page3T
+Arsenal_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal_3.BackgroundTransparency = 1.000
+Arsenal_3.BorderSizePixel = 0
+Arsenal_3.Position = UDim2.new(0.718208075, 0, 0.0416666716, 0)
+Arsenal_3.Size = UDim2.new(0, 127, 0, 33)
+Arsenal_3.ZIndex = 2
+Arsenal_3.Font = Enum.Font.Ubuntu
+Arsenal_3.Text = "Arsenal"
+Arsenal_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal_3.TextScaled = true
+Arsenal_3.TextSize = 14.000
+Arsenal_3.TextWrapped = true
+
+TextLabel_Roundify_12px_10.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_10.Parent = Arsenal_3
+TextLabel_Roundify_12px_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_10.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_10.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_10.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_10.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_10.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_10.SliceScale = 0.120
+
+UIGradient_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_27.Parent = TextLabel_Roundify_12px_10
+
+UIGradient_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_28.Parent = Arsenal_3
+
+Phantom_3.Name = "Phantom"
+Phantom_3.Parent = Page3T
+Phantom_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Phantom_3.BackgroundTransparency = 1.000
+Phantom_3.BorderSizePixel = 0
+Phantom_3.Position = UDim2.new(0.303468198, 0, 0.0416666716, 0)
+Phantom_3.Size = UDim2.new(0, 127, 0, 33)
+Phantom_3.ZIndex = 2
+Phantom_3.Font = Enum.Font.Ubuntu
+Phantom_3.Text = "Phantom"
+Phantom_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Phantom_3.TextScaled = true
+Phantom_3.TextSize = 14.000
+Phantom_3.TextWrapped = true
+
+TextLabel_Roundify_12px_11.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_11.Parent = Phantom_3
+TextLabel_Roundify_12px_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_11.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_11.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_11.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_11.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_11.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_11.SliceScale = 0.120
+
+UIGradient_29.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_29.Parent = TextLabel_Roundify_12px_11
+
+UIGradient_30.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_30.Parent = Phantom_3
+
+Recoil_3.Name = "Recoil"
+Recoil_3.Parent = Page3T
+Recoil_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Recoil_3.BackgroundTransparency = 1.000
+Recoil_3.BorderSizePixel = 0
+Recoil_3.Position = UDim2.new(0.518786073, 0, 0.0416666716, 0)
+Recoil_3.Size = UDim2.new(0, 127, 0, 33)
+Recoil_3.ZIndex = 2
+Recoil_3.Font = Enum.Font.Ubuntu
+Recoil_3.Text = "Recoil"
+Recoil_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Recoil_3.TextScaled = true
+Recoil_3.TextSize = 14.000
+Recoil_3.TextWrapped = true
+
+TextLabel_Roundify_12px_12.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_12.Parent = Recoil_3
+TextLabel_Roundify_12px_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_12.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_12.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_12.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_12.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_12.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_12.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_12.SliceScale = 0.120
+
+UIGradient_31.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_31.Parent = TextLabel_Roundify_12px_12
+
+UIGradient_32.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_32.Parent = Recoil_3
+
+Page4T.Name = "Page4T"
+Page4T.Parent = Main
+Page4T.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page4T.BackgroundTransparency = 1.000
+Page4T.Position = UDim2.new(-0.236673772, 0, 1.22388053, 0)
+Page4T.Size = UDim2.new(0, 692, 0, 408)
+Page4T.Visible = false
+Page4T.Image = "rbxassetid://3570695787"
+Page4T.ScaleType = Enum.ScaleType.Slice
+Page4T.SliceCenter = Rect.new(100, 100, 100, 100)
+Page4T.SliceScale = 0.120
+
+UIGradient_33.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_33.Parent = Page4T
+
+JailBreak_4.Name = "JailBreak"
+JailBreak_4.Parent = Page4T
+JailBreak_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak_4.BackgroundTransparency = 1.000
+JailBreak_4.BorderSizePixel = 0
+JailBreak_4.Position = UDim2.new(0.0953757167, 0, 0.0416666716, 0)
+JailBreak_4.Size = UDim2.new(0, 127, 0, 33)
+JailBreak_4.ZIndex = 2
+JailBreak_4.Font = Enum.Font.Ubuntu
+JailBreak_4.Text = "Jailbreak"
+JailBreak_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak_4.TextScaled = true
+JailBreak_4.TextSize = 14.000
+JailBreak_4.TextWrapped = true
+
+TextLabel_Roundify_12px_13.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_13.Parent = JailBreak_4
+TextLabel_Roundify_12px_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_13.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_13.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_13.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_13.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_13.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_13.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_13.SliceScale = 0.120
+
+UIGradient_34.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_34.Parent = TextLabel_Roundify_12px_13
+
+UIGradient_35.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_35.Parent = JailBreak_4
+
+Arsenal_4.Name = "Arsenal"
+Arsenal_4.Parent = Page4T
+Arsenal_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal_4.BackgroundTransparency = 1.000
+Arsenal_4.BorderSizePixel = 0
+Arsenal_4.Position = UDim2.new(0.718208075, 0, 0.0416666716, 0)
+Arsenal_4.Size = UDim2.new(0, 127, 0, 33)
+Arsenal_4.ZIndex = 2
+Arsenal_4.Font = Enum.Font.Ubuntu
+Arsenal_4.Text = "Arsenal"
+Arsenal_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal_4.TextScaled = true
+Arsenal_4.TextSize = 14.000
+Arsenal_4.TextWrapped = true
+
+TextLabel_Roundify_12px_14.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_14.Parent = Arsenal_4
+TextLabel_Roundify_12px_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_14.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_14.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_14.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_14.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_14.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_14.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_14.SliceScale = 0.120
+
+UIGradient_36.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_36.Parent = TextLabel_Roundify_12px_14
+
+UIGradient_37.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_37.Parent = Arsenal_4
+
+Phantom_4.Name = "Phantom"
+Phantom_4.Parent = Page4T
+Phantom_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Phantom_4.BackgroundTransparency = 1.000
+Phantom_4.BorderSizePixel = 0
+Phantom_4.Position = UDim2.new(0.303468198, 0, 0.0416666716, 0)
+Phantom_4.Size = UDim2.new(0, 127, 0, 33)
+Phantom_4.ZIndex = 2
+Phantom_4.Font = Enum.Font.Ubuntu
+Phantom_4.Text = "Phantom"
+Phantom_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Phantom_4.TextScaled = true
+Phantom_4.TextSize = 14.000
+Phantom_4.TextWrapped = true
+
+TextLabel_Roundify_12px_15.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_15.Parent = Phantom_4
+TextLabel_Roundify_12px_15.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_15.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_15.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_15.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_15.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_15.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_15.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_15.SliceScale = 0.120
+
+UIGradient_38.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_38.Parent = TextLabel_Roundify_12px_15
+
+UIGradient_39.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_39.Parent = Phantom_4
+
+Recoil_4.Name = "Recoil"
+Recoil_4.Parent = Page4T
+Recoil_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Recoil_4.BackgroundTransparency = 1.000
+Recoil_4.BorderSizePixel = 0
+Recoil_4.Position = UDim2.new(0.518786073, 0, 0.0416666716, 0)
+Recoil_4.Size = UDim2.new(0, 127, 0, 33)
+Recoil_4.ZIndex = 2
+Recoil_4.Font = Enum.Font.Ubuntu
+Recoil_4.Text = "Recoil"
+Recoil_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Recoil_4.TextScaled = true
+Recoil_4.TextSize = 14.000
+Recoil_4.TextWrapped = true
+
+TextLabel_Roundify_12px_16.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_16.Parent = Recoil_4
+TextLabel_Roundify_12px_16.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_16.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_16.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_16.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_16.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_16.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_16.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_16.SliceScale = 0.120
+
+UIGradient_40.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_40.Parent = TextLabel_Roundify_12px_16
+
+UIGradient_41.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_41.Parent = Recoil_4
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = ScreenGui
+LoginFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoginFrame.BackgroundTransparency = 1.000
+LoginFrame.Position = UDim2.new(0.258399725, 0, 0.282536864, 0)
+LoginFrame.Size = UDim2.new(0, 597, 0, 358)
+LoginFrame.ZIndex = -1
+LoginFrame.Image = "rbxassetid://3570695787"
+LoginFrame.ScaleType = Enum.ScaleType.Slice
+LoginFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+LoginFrame.SliceScale = 0.120
+LoginFrame.Active = true
+LoginFrame.Draggable = true
+
+UIGradient_42.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_42.Parent = LoginFrame
+
+TextLabel.Parent = LoginFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.338104844, 0, 0.0630846098, 0)
+TextLabel.Size = UDim2.new(0, 194, 0, 57)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "JSH"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Password.Name = "Password"
+Password.Parent = LoginFrame
+Password.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Password.BackgroundTransparency = 1.000
+Password.Position = UDim2.new(0.309160769, 0, 0.605589449, 0)
+Password.Size = UDim2.new(0, 224, 0, 42)
+Password.ZIndex = 2
+Password.Font = Enum.Font.PatrickHand
+Password.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Password.PlaceholderText = "Password"
+Password.Text = ""
+Password.TextColor3 = Color3.fromRGB(255, 255, 255)
+Password.TextScaled = true
+Password.TextSize = 14.000
+Password.TextWrapped = true
+
+Username.Name = "Username"
+Username.Parent = LoginFrame
+Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Username.BackgroundTransparency = 1.000
+Username.Position = UDim2.new(0.312510848, 0, 0.407265425, 0)
+Username.Size = UDim2.new(0, 224, 0, 42)
+Username.ZIndex = 2
+Username.Font = Enum.Font.PatrickHand
+Username.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Username.PlaceholderText = "Username"
+Username.Text = ""
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextScaled = true
+Username.TextSize = 14.000
+Username.TextWrapped = true
+
+Auth.Name = "Auth"
+Auth.Parent = LoginFrame
+Auth.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Auth.BackgroundTransparency = 1.000
+Auth.BorderSizePixel = 0
+Auth.Position = UDim2.new(0.331658304, 0, 0.787709475, 0)
+Auth.Size = UDim2.new(0, 200, 0, 50)
+Auth.ZIndex = 2
+Auth.Font = Enum.Font.Ubuntu
+Auth.Text = "Login"
+Auth.TextColor3 = Color3.fromRGB(255, 255, 255)
+Auth.TextScaled = true
+Auth.TextSize = 14.000
+Auth.TextWrapped = true
+Auth.MouseButton1Down:connect(function()
+	if Username.Text == "betatester01" and Password.Text == "xdr01" then
+		LoginFrame.Visible = false
+		Main.Visible = true
+	end
+end)
+
+RoundifyAuth.Name = "Roundify Auth"
+RoundifyAuth.Parent = Auth
+RoundifyAuth.Active = true
+RoundifyAuth.AnchorPoint = Vector2.new(0.5, 0.5)
+RoundifyAuth.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundifyAuth.BackgroundTransparency = 1.000
+RoundifyAuth.Position = UDim2.new(0.515000045, 0, 0.5, 0)
+RoundifyAuth.Selectable = true
+RoundifyAuth.Size = UDim2.new(1, 0, 1, 0)
+RoundifyAuth.Image = "rbxassetid://3570695787"
+RoundifyAuth.ScaleType = Enum.ScaleType.Slice
+RoundifyAuth.SliceCenter = Rect.new(100, 100, 100, 100)
+RoundifyAuth.SliceScale = 0.120
+
+UIGradient_43.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_43.Parent = RoundifyAuth
+
+Roundify.Name = "Roundify"
+Roundify.Parent = LoginFrame
+
+PasswordRound.Name = "Password Round"
+PasswordRound.Parent = Roundify
+PasswordRound.AnchorPoint = Vector2.new(0.5, 0.5)
+PasswordRound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PasswordRound.BackgroundTransparency = 1.000
+PasswordRound.Position = UDim2.new(0.49999994, 0, 0.666513801, 0)
+PasswordRound.Size = UDim2.new(0.458128124, 0, 0.12935324, 0)
+PasswordRound.ZIndex = 0
+PasswordRound.Image = "rbxassetid://3570695787"
+PasswordRound.ScaleType = Enum.ScaleType.Slice
+PasswordRound.SliceCenter = Rect.new(100, 100, 100, 100)
+PasswordRound.SliceScale = 0.120
+
+UIGradient_44.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_44.Parent = PasswordRound
+
+UsernameRound.Name = "Username Round"
+UsernameRound.Parent = Roundify
+UsernameRound.AnchorPoint = Vector2.new(0.5, 0.5)
+UsernameRound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UsernameRound.BackgroundTransparency = 1.000
+UsernameRound.Position = UDim2.new(0.49999997, 0, 0.476569712, 0)
+UsernameRound.Size = UDim2.new(0.458128124, 0, 0.12935324, 0)
+UsernameRound.Image = "rbxassetid://3570695787"
+UsernameRound.ScaleType = Enum.ScaleType.Slice
+UsernameRound.SliceCenter = Rect.new(100, 100, 100, 100)
+UsernameRound.SliceScale = 0.120
+
+UIGradient_45.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_45.Parent = UsernameRound
+
+TextLabel_Roundify_12px_17.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_17.Parent = Roundify
+TextLabel_Roundify_12px_17.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_17.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_17.Position = UDim2.new(0.497611672, 0, 0.144469902, 0)
+TextLabel_Roundify_12px_17.Size = UDim2.new(0.312807858, 0, 0.184079602, 0)
+TextLabel_Roundify_12px_17.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_17.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_17.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_17.SliceScale = 0.120
+
+UIGradient_46.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient_46.Parent = TextLabel_Roundify_12px_17
+
+
