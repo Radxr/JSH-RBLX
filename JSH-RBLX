@@ -943,7 +943,7 @@ Auth.TextScaled = true
 Auth.TextSize = 14.000
 Auth.TextWrapped = true
 Auth.MouseButton1Down:connect(function()
-	if Username.Text == "betatester01" and Password.Text == "xdr01" then
+	if Username.Text == "betatester03" and Password.Text == "xdr01" then
 		LoginFrame.Visible = false
 		Main.Visible = true
 	end
